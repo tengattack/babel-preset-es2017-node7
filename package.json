@@ -1,0 +1,31 @@
+{
+  "name": "babel-preset-es2015-node7",
+  "version": "0.3.0",
+  "description": "Babel preset to make node@7 fully ES2017 compatible",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "mocha -r ./test/setup",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tengattack/babel-preset-es2015-node7.git"
+  },
+  "keywords": [
+    "babel",
+    "babel-preset",
+    "babel-preset-es2017",
+    "node7"
+  ],
+  "author": "tengattack <i@bless.moe>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.18.0"
+  },
+  "dependencies": {
+    "babel-plugin-syntax-trailing-function-commas": "^6.13.0"
+  }
+}
