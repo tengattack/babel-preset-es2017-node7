@@ -7,6 +7,7 @@ the most excited change is the support of async function in harmony flag,
 this module just adds missing features:
 
 - modules ([transform-es2015-modules-commonjs](http://babeljs.io/docs/plugins/transform-es2015-modules-commonjs))
+- class properties ([transform-class-properties](http://babeljs.io/docs/plugins/transform-class-properties))
 - object rest spread ([syntax-object-rest-spread](http://babeljs.io/docs/plugins/syntax-object-rest-spread))
 - trailing function commas ([syntax-trailing-function-commas](http://babeljs.io/docs/plugins/syntax-trailing-function-commas))
 
