@@ -6,7 +6,8 @@ Node@7 has great [ES2017 support](https://nodejs.org/en/docs/es6/),
 the most excited change is the support of async function in harmony flag,
 this module just adds missing features:
 
-- modules ([syntax-trailing-function-commas](http://babeljs.io/docs/plugins/syntax-trailing-function-commas))
+- modules ([transform-es2015-modules-commonjs](http://babeljs.io/docs/plugins/transform-es2015-modules-commonjs))
+- trailing function commas ([syntax-trailing-function-commas](http://babeljs.io/docs/plugins/syntax-trailing-function-commas))
 
 ## Install
 
