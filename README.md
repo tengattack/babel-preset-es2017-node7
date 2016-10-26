@@ -3,7 +3,7 @@
 > Babel preset to make node@6 fully ES2017 compatible.
 
 Node@7 has great [ES2017 support](https://nodejs.org/en/docs/es6/),
-the most exciting change is support async function in harmony flag,
+the most excited change is the support of async function in harmony flag,
 this module just adds missing features:
 
 - modules ([syntax-trailing-function-commas](http://babeljs.io/docs/plugins/syntax-trailing-function-commas))

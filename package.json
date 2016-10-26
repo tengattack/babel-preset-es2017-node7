@@ -6,10 +6,6 @@
   "files": [
     "index.js"
   ],
-  "scripts": {
-    "test": "mocha -r ./test/setup",
-    "prepublish": "npm test"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/tengattack/babel-preset-es2015-node7.git"
