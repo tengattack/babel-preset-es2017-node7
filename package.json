@@ -1,7 +1,7 @@
 {
   "name": "babel-preset-es2017-node7",
   "version": "0.2.0",
-  "description": "Babel preset to make node@7 fully ES2017 compatible",
+  "description": "Babel preset to make node@7 ES2017 compatible",
   "main": "index.js",
   "files": [
     "index.js"
@@ -23,6 +23,7 @@
   },
   "dependencies": {
     "babel-plugin-syntax-trailing-function-commas": "^6.13.0",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0"
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.18.0",
+    "babel-plugin-transform-object-rest-spread": "^6.16.0"
   }
 }

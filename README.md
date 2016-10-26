@@ -1,12 +1,13 @@
 # babel-preset-es2017-node7 [![](https://img.shields.io/npm/v/babel-preset-es2017-node7.svg)](https://npmjs.org/package/babel-preset-es2017-node7)
 
-> Babel preset to make node@6 fully ES2017 compatible.
+> Babel preset to make node@7 ES2017 compatible.
 
 Node@7 has great [ES2017 support](https://nodejs.org/en/docs/es6/),
 the most excited change is the support of async function in harmony flag,
 this module just adds missing features:
 
 - modules ([transform-es2015-modules-commonjs](http://babeljs.io/docs/plugins/transform-es2015-modules-commonjs))
+- object rest spread ([syntax-object-rest-spread](http://babeljs.io/docs/plugins/syntax-object-rest-spread))
 - trailing function commas ([syntax-trailing-function-commas](http://babeljs.io/docs/plugins/syntax-trailing-function-commas))
 
 ## Install
@@ -46,7 +47,7 @@ babel script.js --presets es2017-node7
 
 ```js
 require('babel-core').transform('code', {
-  presets: ['es2017-node6'],
+  presets: ['es2017-node7'],
 })
 ```
 
