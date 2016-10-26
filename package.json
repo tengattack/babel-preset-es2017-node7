@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-es2017-node7",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Babel preset to make node@7 ES2017 compatible",
   "main": "index.js",
   "files": [
