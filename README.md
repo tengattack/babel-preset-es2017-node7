@@ -34,7 +34,7 @@ node --harmony script.js
 
 ```json
 {
-  "presets": ["es2015-node7"]
+  "presets": ["es2017-node7"]
 }
 ```
 
