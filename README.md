@@ -38,6 +38,13 @@ node --harmony script.js
 }
 ```
 
+If you are using webpack 2, this will help for `import` / `export` were natively supported in Webpack 2.
+```
+{
+  "presets": ["es2017-node7/webpack2"]
+}
+```
+
 ### Via CLI
 
 ```js
