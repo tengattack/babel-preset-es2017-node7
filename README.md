@@ -7,6 +7,7 @@ the most excited change is the support of async function in harmony flag,
 this module just adds missing features:
 
 - modules ([transform-es2015-modules-commonjs](http://babeljs.io/docs/plugins/transform-es2015-modules-commonjs))
+- transform export extensions ([transform-export-extensions](https://babeljs.io/docs/plugins/transform-export-extensions/))
 - class properties ([transform-class-properties](http://babeljs.io/docs/plugins/transform-class-properties))
 - object rest spread ([syntax-object-rest-spread](http://babeljs.io/docs/plugins/syntax-object-rest-spread))
 - trailing function commas ([syntax-trailing-function-commas](http://babeljs.io/docs/plugins/syntax-trailing-function-commas))
@@ -25,7 +26,10 @@ for more information about babel@6 configuration.
 ### Node run in harmony
 
 ```shell
+# 7.6.0 > Node.js version > 7.0.0
 node --harmony script.js
+# Node.js version >= 7.6.0
+node script.js
 ```
 
 ### Via `.babelrc` (recommended)
